@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
 <style type="text/css">
-<!--
+
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 	margin: 0;
@@ -157,12 +157,24 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	border-bottom-style: solid;
 	border-bottom-color: #060;
 }
--->
+
     
     
     span{
         color: #239517;
     }  
+	.green{
+        color: forestgreen;
+    }
+ fieldset{
+        border: solid 1px forestgreen;
+    }
+    legend{
+        color: forestgreen;
+    }
+    .formularz{
+        margin: 15px;
+    }
     
 </style></head>
 
@@ -172,9 +184,60 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
   <div id="apDiv1"><img src="images/butterfly-ovr.gif" width="170" height="150" alt="GreenStart Logo" /></div>
   <div class="header"><!-- end .header --></div>
   <div id="h-navbar">Home | About Us | Contact Us</div>
-    <div class="formularz"> </div>
+    
   <div class="content">
-      <div class="Travel"></div>
+	  <h1>2020 Eco-Tour Sign-up Form</h1>
+    <p>To sign up for the 2020 Eco-Tour, pleas fill out the following fields</p>
+	  <div class="formularz"> 
+		<form>
+            <fieldset >
+                <legend><b>Your Contact Information</b></legend>
+           Name: <input type="text" name="imie" placeholder="Your name"> <br>
+            Email: <input type="text" name="email" placeholder="Your email">
+            </fieldset>
+              
+            <fieldset>
+                <legend><b>Customer Account Login</b></legend>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br><br>
+                Password:<input type="password" name="haslo" placeholder="Your password" minlenght="8"><br>
+                Repeat password:<input type="password" name="haslo" placeholder="Your password" minlenght="8"><br>
+            </fieldset>
+              
+            <fieldset>
+                <legend><b>2020 Eco-Tour</b></legend>
+                <input type="checkbox" name="marzec">March 6-27, 2020<br>
+                <input type="checkbox" name="czerwiec">June 5-26, 2020<br>
+                <input type="checkbox" name="pazdziernik">October 2-23, 2020<br><br>
+                How many people will be traveling?<br><br>
+                <input type="radio" name="ile_dni" value="1">One<br>
+                <input type="radio" name="ile_dni" value="2">Two<br>
+                <input type="radio" name="ile_dni" value="3">Three<br>
+            </fieldset>
+        </form></div>
+      <div class="Travel">
+    <br>
+    <hr width=90%>
+        <h3 class="green"> 2010 Eco-Tour of Italy </h3>
+    <p> Sing up today for this fantastic 21-day journey throught the four major regions Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem </p>
+    <hr width=90%>
+    <div>
+        <img src="images/ecotour.jpg" align="right">
+        <p align="left"><b class="green"><u>Venice: City of Canals</u> (5 days)</b><br>
+         Explore the narrow gangways between buildings some as old as 500 years to the broad promanade filled with shops and push carts on this island wonderland
+         </p><br>
+         <hr width=60%>
+        <p><b class="green"><u>Florence: City of Arts</u>(5 days)</b><br>
+        Born just outside of town, Florence was the home to Leonadro DaVinci for over 30 years. The Accademia and Uffizi galleries house original works from master artists from every major era including important works of Botticelli, Raphael, Caravaggio, Rubens, Titan, Giotto, Leonardo and Michelangelo.</p><br>
+        <hr width=60%>
+        <p><b class="green"><u>Sienna: City of Beauty</u> (2 days)</b><br>
+        Experience the heart of Tuscany in this breathtakingly beautiful hill town. Climb the tower of the Duomo and look out over the rolling landscape and imagine  yourself back in the magical Renaissance when art and science was reborn
+        </p><br>
+        <hr width=60%>
+        <p><b class="green"><u>Rome: City of Magic </u>(5 days)</b><br>
+        The Coliseum, the Pantheon, the Trevi Fountain and Vatican City only scratch the surface of your stay in this magnificant city, capital and center of cultular history.</p>
+    </div>
       <div>
             <h1>Green with it! <span>Green</span>Start</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor dui ac porttitor congue. Fusce facilisis eros nibh, at hendrerit purus blandit ut. Duis placerat scelerisque mi vel scelerisque. Morbi ultricies ut lectus quis vestibulum. Aenean laoreet mi tortor. Nam ipsum orci, auctor vitae diam at, condimentum ornare augue. </p>
